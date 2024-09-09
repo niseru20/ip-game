@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="kemekeme.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="choices">
+            <button onclick="playGame(`rock`)"> <img src="gapo.jpg" alt="Rock"></button>
+            <button onclick="playGame(`paper`)"><img src="papel.jpg" alt="Paper"></button>
+            <button onclick="playGame(`scissors`)"><img src="gunting.jpg" alt="Scissors"</button>
+        </div>
+
+        <div class="results">
+            <p id="user-choice">You chose: <span></span></p>
+            <p id="computer-choice">Computer chose: <span></span></p>
+            <h2 id="result-message">Result: <span></span></h2>
+        </div>
+    </div>
+    <script src="mekekeme.js"></script>
+</body>
+</html>
